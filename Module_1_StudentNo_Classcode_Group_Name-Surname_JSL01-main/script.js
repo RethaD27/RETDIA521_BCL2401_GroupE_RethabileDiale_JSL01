@@ -6,8 +6,8 @@ function validateSyntax() {
     let resultElement = document.getElementById("result"); // Placeholder for validation result
 
     if (isValid) {
-        resultElement.innerHTML = "Valid Syntax." + '<span style="color: #008000; font-size: 60px;">&#x25cf;</span>';
+        resultElement.innerHTML = "Valid Syntax." + '<span style="color: green; font-size: 60px;">&#x25cf;</span>';
     } else {
-        resultElement.innerHTML = "Invalid Syntax." + '<span style="color: #ff4500; font-size: 60px;">&#x25cf;</span>';
+        resultElement.innerHTML = "Invalid Syntax." + '<span style="color: red; font-size: 60px;">&#x25cf;</span>';
     }
 }
